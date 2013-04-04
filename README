@@ -1,0 +1,30 @@
+Shreshth Khilani
+PennKey: shreshth
+
+copy_hits.cgi
+This Python script simply copies the number of visits stored in counter.txt.
+It prints this number out.
+
+update_hits.cgi
+This Python script extracts the number of hits from counter.txt.
+It takes this number, increments it by 1 and stores it back into counter.txt.
+
+counter.txt
+Stores the number of hits.
+
+browsers.txt
+Stores 5 numbers in 5 separate lines.
+1st line - number of users who used IE.
+2nd line - Chrome.
+3rd line - Safari.
+4th line - Firefox.
+5th line - Other.
+
+index.php
+This script calls the two Python scripts to figure out number of hits,
+and also update number of hits.
+It also checks the browser of the current user, and increments one of the 
+numbers in browsers.txt according to the result. 
+It then checks the maximum value and prints the corresponding browser 
+with the highest usage.
+
